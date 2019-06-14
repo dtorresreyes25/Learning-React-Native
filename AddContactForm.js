@@ -9,7 +9,7 @@ import {
 
 const styles = StyleSheet.create({
   input: {
-    marginTop: 40,
+    marginTop: 20,
     margin: 5,
     borderWidth: 1,
     borderColor: "black"
