@@ -5,6 +5,7 @@ import contacts, { compareNames } from "./contacts";
 import Row from "./row";
 import ContactsList from "./ContactsList";
 import AddContactForm from "./AddContactForm";
+import Example from "./exampleNav";
 
 const styles = StyleSheet.create({
   row: {
@@ -15,7 +16,7 @@ const styles = StyleSheet.create({
   }
 });
 
-export default class App extends React.Component {
+/*export default class App extends React.Component {
   state = {
     showContacts: false,
     contacts: contacts,
@@ -60,4 +61,6 @@ export default class App extends React.Component {
       </View>
     );
   }
-}
+}*/
+
+export default Example;
